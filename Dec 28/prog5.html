@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Question 5</title>
+        <style>
+            body{
+                position: fixed;
+                width:100%;
+                height:100%;
+            }
+        </style>
+    </head>
+    <body onclick="dispCoord()">
+        <p>Click anywhere on the screen to get coordinates</p>
+    </body>
+    <script>
+        function dispCoord(){
+            var x = event.clientX;
+            var y = event.clientY;
+            alert("X-coordinate: "+x +" Y-coordinate: "+y);
+        }
+    </script>
+</html>

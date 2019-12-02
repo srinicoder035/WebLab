@@ -1,0 +1,9 @@
++----------+-------------+------+-----+---------+-------+
+| Field    | Type        | Null | Key | Default | Extra |
++----------+-------------+------+-----+---------+-------+
+| name     | varchar(30) | YES  |     | NULL    |       |
+| id       | varchar(10) | YES  |     | NULL    |       |
+| address  | varchar(30) | YES  |     | NULL    |       |
+| mobile   | varchar(10) | YES  |     | NULL    |       |
+| password | varchar(20) | YES  |     | NULL    |       |
++----------+-------------+------+-----+---------+-------+

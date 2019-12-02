@@ -1,0 +1,15 @@
++---------------+-------------+------+-----+---------+-------+
+| Field         | Type        | Null | Key | Default | Extra |
++---------------+-------------+------+-----+---------+-------+
+| name          | varchar(15) | YES  |     | NULL    |       |
+| id            | varchar(15) | YES  |     | NULL    |       |
+| sem           | varchar(2)  | YES  |     | NULL    |       |
+| course_1_id   | varchar(6)  | YES  |     | NULL    |       |
+| course_1_name | varchar(20) | YES  |     | NULL    |       |
+| grade_1       | varchar(3)  | YES  |     | NULL    |       |
+| course_2_id   | varchar(6)  | YES  |     | NULL    |       |
+| course_2_name | varchar(20) | YES  |     | NULL    |       |
+| grade_2       | varchar(3)  | YES  |     | NULL    |       |
+| password      | varchar(20) | YES  |     | NULL    |       |
++---------------+-------------+------+-----+---------+-------+
+
